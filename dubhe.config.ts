@@ -18,6 +18,6 @@ export const dubheConfig = {
 		},
 	},
 	schemas: {
-		leaderboard: 'StorageMap<address, u256>',
+		scores: 'StorageMap<address, u256>',
 	},
 } as DubheConfig;
